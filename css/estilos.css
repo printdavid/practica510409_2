@@ -1,8 +1,105 @@
-h1 {
+#mp1 {
+    border-top: 3px solid tomato;
+    border-bottom: 5px solid tomato;
+}
+
+#mp1 main {
+    background-color: blueviolet;
+}
+
+#mp1 aside {
+    background-color: gold;
+}
+
+#mp1 > footer {
+    background-color: darkorange;
+}
+
+/* Poner borde al pie de los articulos de la minipage 1 */
+#mp1 article > footer {
+    border: 5px double grey;
+}
+
+/* Hermano general */
+#mp1 h2 ~ article {
+    box-shadow: 5px 5px 5px palevioletred;
+}
+
+/* Hermano adyacente */
+#mp1 h2 + article, #mp1 nav, [href="#"] {
+    border-top: 5px double blue;
+}
+
+/* [type="text"] {
+    color: blue;
+}
+
+[href*="you"] {
+    color:red;
+}
+
+[href$="mx"] {
+    background-color: green;
+}
+
+[href^="https"] {
+    font-size: 25px;
+}
+
+[href="#"] {
+    background-color: lime;
+} */
+
+/* Buscar por atributo sin importar valores */
+/* [href] {
+    border-bottom: 5px solid blue;
+}
+
+[lang] {
+    color:aqua;
+}
+
+h1.verde {
+    font-size: 50px;
+} */
+
+/* Selector por clase */
+/* .rojo {
+    background-color: red;
+    border: 5px groove tomato;
+    border-radius: 5px;
+}
+
+.verde {
+    background-color: green;
+    border: 5px inset greenyellow;
+    border-radius: 5px;
+} */
+
+/* Selector por id */
+/* #link1 {
+    font-size: 20px;
+}
+
+#link6 {
+    background-color: tomato;
+} */
+
+/* Selector universal */
+
+/* * {
+    border: 1px dashed blue;
+} */
+
+
+/* Selector por tipo */
+
+/* h1 {
     border: 10px dotted gold;
     border-radius: 50px;
     background-color: lime;
     text-align: center;
     box-shadow: 5px 5px gray;
     font-size: 500px;
-}
+} */
+
